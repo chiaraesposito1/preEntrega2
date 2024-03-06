@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    background-color: rgb(241, 218, 187);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+}
+.navbar-color{
+    background-color: rgb(22, 31, 22);
+}
+.nav-link{
+    color:white;
+}
+.card-title{
+    font-size: 5rem;
+    font-weight: 100;
+
+    .font-weight{
+        font-weight: 700;
+    }
+}
+.btn{
+    border: 1px solid white;
+    color:white;
+    border-radius: 0;
+    padding: 10px 40px; 
+}
+.card-tarjeta{
+font-size: 1rem;
+}
+
