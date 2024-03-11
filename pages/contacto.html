@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,41 +7,76 @@
     <link rel="shortcut icon" href="../assets/img/favicon.svg">
     <script src="https://kit.fontawesome.com/91df28c222.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos-nuevo.css">
 </head>
 <body>
     <header>
-        <nav >
-            <a href="" >
-                <img src="../assets/img/Logo-negocio.png" alt="Logo-negocio">
-            </a>
-            <ul>
-                <li ><a  href="../index.html">Inicio</a></li>
-                <li ><a  href="./servicios.html">Servicios</a></li>
-                <li ><a  href="./nosotros.html">Nosotros</a></li>
-                <li ><a href="./locales.html">Locales</a></li>
-                <li ><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-color">
+            <div class="container-fluid">
+                <a class="navbar-brand p-0 pe-3 ms-4" href="#">
+                    <img class="logoNegocio" src="../assets/img/logo.png" alt="logo-negocio">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-0 w-100 justify-content-end">
+                    <li class="nav-item ps-3 pe-3">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item ps-3 pe-3">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item ps-3 pe-3">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item ps-3 pe-3">
+                        <a class="nav-link" href="./locales.html">Locales</a>
+                    </li>
+                    <li class="nav-item ps-3 pe-3">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
         </nav>
     </header>
-    <main > 
-        <section >
-            <h1 >Contactate con nosotros!</h1>
-                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe placeat cumque iure quam totam voluptatem fugiat natus deserunt soluta quis animi harum quo, cum autem odit odio facilis delectus?</p>
-                <a class="linkDescubreMas" href="./servicios.html"> Descubre más </a>
-                 <section id="unite">
-        <h3>Unite al equipo!</h3>
-        <p>Lorem ipsum dolo nima incidunt eveniet, autem magni!</p>
-        <form action="" method="post" class="formulario">
-            <h4>Nombre</h4>
-            <input type="text" name="nombre" id="nombre" required>
-            <h4>E-mail</h4>
-            <input type="email" name="Email" placeholder="juan@gmail.com" id="email" required>
-            <br>
-            <input type="submit" value="Enviar" id="enviar">
-         </section></section>   
+
+    <main> 
+
+        <section class="container-fluid">
+            <div class="card bg-dark text-white">
+                <img src="../assets/img/unete.jpg" class="card-img-contacto" alt="img-contacto">
+                <div class="card-img-overlay text-center">
+                    <h1 class="card-title titulo fs-1 mb-2">¡Contactate con nosotros!</h1>
+                    <p class="card-text text-contacto-portada fs-6 ms-5 me-5" > Somos una empresa... Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iste vitae ut, magni, adipisci officiis ipsum non, quis laborum aliquam sint impedit perferendis est consectetur! Quibusdam mollitia odio voluptatem maiores.</p>
+                    <a class="btn" href=""> Descubre más </a>
+                </div>
+                </div>
         </section>
+
+        <form class="mt-5">
+            <div class="seccion-principal-contacto text-center">
+                <h3 class="card-title titulo fs-2 p-2">Unite al equipo</h3>
+                <p class="text-contacto p-2">Lorem ipsum dolor sit amet consxplicabo doe dolorbus, possimus doloribus. Deleniti, aut explicabo.</p>
+            </div>
+            <div class="form mb-3">
+                <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre" required>
+              </div>
+            <div class=" form mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1"> De acuerdo con los terminos y condiciones</label>
+            </div>
+            <button type="submit" class="btn-enviar" value="Enviar">Enviar</button>
+        </div>
+          </form>
     </main>
+
     <footer>
     <section >
         <nav >

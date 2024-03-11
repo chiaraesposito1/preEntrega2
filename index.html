@@ -14,27 +14,27 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-color">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/img/logo.png" alt="logo-negocio">
+                <a class="navbar-brand p-0 pe-3 ms-4" href="#">
+                    <img class="logoNegocio" src="./assets/img/logo.png" alt="logo-negocio">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
-                    <li class="nav-item">
+                <ul class="navbar-nav me-auto mb-lg-0 w-100 justify-content-end">
+                    <li class="nav-item ps-3 pe-3">
                         <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ps-3 pe-3">
                         <a class="nav-link" href="./pages/servicios.html">Servicios</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ps-3 pe-3">
                         <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ps-3 pe-3">
                         <a class="nav-link" href="./pages/locales.html">Locales</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ps-3 pe-3">
                         <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                     </li>
                 </ul>
@@ -45,9 +45,9 @@
 
     <main class="mainIndex">
 
-        <section class="container-fluid">
+        <section class="container-fluid cabeceraPrincipal">
             <div class="card bg-dark text-white">
-                <img src="./assets/img/tropical-green-leaves-background.jpg" class="card-img" alt="img-portada">
+                <img src="./assets/img/tropical-green-leaves-background.jpg" class="card-img-portada" alt="img-portada">
                 <div class="card-img-overlay">
                     <h1 class="card-title">Tu belleza, <br><span class="font-weight">nuestro arte</span></h1>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iste vitae ut, magni, adipisci officiis ipsum non, quis laborum aliquam sint impedit perferendis est consectetur! Quibusdam mollitia odio voluptatem maiores.</p>
@@ -55,121 +55,83 @@
                 </div>
                 </div>
         </section>
-          <!--<section class="seccionPortada">
-            <section class="contenedorPortada">
-            <h1 class="tituloPrincipal"><span class="fuenteLight">Tu belleza, </span><br>nuestro arte</h1>
-                <p class="textoPrincipal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe placeat cumque iure quam totam voluptatem fugiat natus deserunt soluta quis animi harum quo, cum autem odit odio facilis delectus?</p>
-                <a class="linkDescubreMas" href="./pages/servicios.html"> Descubre más </a>
-        </section></section> -->
 
-        <section class="container">
-            <div class="card-group">
-                <div class="card">
-                    <img src="./assets/img/esmalte semipermanente.jpg" class="card-img-top" alt="Esmalte semipermanente">
-                    <div class="card-body">
-                        <h3 class="card-title card-tarjeta">Esmaltado semipermanente</h3>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <a class="btn" href="./pages/servicios.html"> Descubre más </a>
+        <section class="container-fluid ">
+            <div class=" m-3 text-center mt-5">
+                <h2 class="servicios">Nuestros servicios</h2>
+            </div>
+            <div class="card-group m-3 p-3">
+                <div class="card p-3 m-2">
+                    <img src="./assets/img/esmalte semipermanente.jpg" class="card-img-top " alt="Esmalte semipermanente">
+                    <div class="card-body text-center">
+                        <h4 class="card-title fs-4">Esmaltado permanente</h4>
+                        <p class="card-text-p fs-6">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a class="btn btn-descubre fs-6 p-0 pe-6 ps-6" href="./pages/servicios.html"> Descubre más </a>
                     </div>
                     </div>
-                    <div class="card">
+                    <div class="card p-3 m-2">
                     <img src="./assets/img/kapping.jpg" class="card-img-top" alt="kapping">
-                    <div class="card-body">
-                        <h3 class="card-title card-tarjeta">Kapping en gel</h3>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a class="btn" href="./pages/servicios.html"> Descubre más </a>
+                    <div class="card-body text-center">
+                        <h4 class="card-title fs-4 ">Kapping en gel</h4>
+                        <p class="card-text-p fs-6 ">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a class="btn btn-descubre fs-6 p-0 pe-6 ps-6" href="./pages/servicios.html"> Descubre más </a>
                     </div>
                     </div>
-                    <div class="card">
+                    <div class="card p-3 m-2">
                     <img src="./assets/img/softgel.jpg" class="card-img-top" alt="softgel">
-                    <div class="card-body">
-                        <h3 class="card-title card-tarjeta">Softgel</h3>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <a class="btn" href="./pages/servicios.html"> Descubre más </a>
+                    <div class="card-body text-center">
+                        <h4 class="card-title fs-4">Softgel</h4>
+                        <p class="card-text-p  fs-6">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a class="btn btn-descubre fs-6 p-0 pe-6 ps-6" href="./pages/servicios.html"> Descubre más </a>
                     </div>
                     </div>
-                    <div class="card">
+                    <div class="card p-3 m-2">
                         <img src="./assets/img/cejas y pestañas.jfif" class="card-img-top" alt="cejas-pestañas">
-                        <div class="card-body">
-                        <h3 class="card-title card-tarjeta">Cejas & Pestañas</h3>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <a class="btn" href="./pages/servicios.html"> Descubre más </a>
+                        <div class="card-body text-center">
+                        <h4 class="card-title fs-4 ">Cejas & Pestañas</h4>
+                        <p class="card-text-p fs-6 ">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a class="btn btn-descubre fs-6 p-0 pe-6 ps-6" href="./pages/servicios.html"> Descubre más </a>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="./assets/img/depilacion.jfif" class="card-img-top" alt="depilacion">
-                        <div class="card-body ">
-                        <h3 class="card-title card-tarjeta">Depilacion</h3>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <a class="btn" href="./pages/servicios.html"> Descubre más </a>
+                    <div class="card p-3 m-2">
+                        <img src="./assets/img/depilacion2.jfif" class="card-img-top" alt="depilacion">
+                        <div class="card-body text-center ">
+                        <h4 class="card-title fs-4">Depilacion</h4>
+                        <p class="card-text-p fs-6">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a class="btn btn-descubre fs-6 p-0 pe-6 ps-6" href="./pages/servicios.html"> Descubre más </a>
                         </div>
                     </div>
                 </div>
             </section>
         
-        <!--<section class="serviciosTarjetas">
-            <h2 class="tituloTarjetas">Conoce nuestros servicios</h2>
-            <p>La creatividad, prolijidad y originalidad son los tres pilares que ofrecemos en nuestros servicios.</p>
-            <p class="frase">"Descubre la elegancia en cada detalle"</p>
-            <section class="elegirServicios">
-            <section class="tarjeta">
-                <img class="imgTarjeta" src="./assets/img/esmalte semipermanente.jpg" alt="Esmalte semipermanente">
-                <h3>Esmaltado Semi</h3>
-            </section>
-            <section class="tarjeta">
-                <img class="imgTarjeta" src="./assets/img/softgel.jpg" alt="softgel">
-                <h3>Softgel</h3>
-            </section>
-            <section class="tarjeta">
-                <img class="imgTarjeta" src="./assets/img/kapping.jpg" alt="kapping">
-                <h3>Kapping gel</h3>
-            </section>
-            <section class="tarjeta">
-                <img class="imgTarjeta" src="./assets/img/Pedicuria.jfif" alt="pedicuria">
-                <h3>Pedicuria</h3>
-            </section>
-            <section class="tarjeta">
-                <img class="imgTarjeta" src="./assets/img/cejas y pestañas.jfif" alt="cejas y pestañas">
-                <h3>Cejas & pestañas</h3>
-            </section>
-            <section class="tarjeta">
-                <img class="imgTarjeta" src="./assets/img/depilacion.jfif" alt="depilacion">
-                <h3>Depilacion</h3>
-            </section>
-        </section>
-        </section>-->
+            <div class="row m-5">
+                <div class="col-sm-6 mb-6">
+                <div class="card conocenos pt-5 ps-3 m-6">
+                    <div class="card-body d-flex flex-column mb-3">
+                    <h5 class="card-title fs-3 text-white pb-3 m-0">Nuestra historia</h5>
+                    <a href="./pages/nosotros.html" class="btn tarjetas text-white text-center text-decoration-none p-2 col-4">¡Conocenos!</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-sm-6 mb-6">
+                <div class="card unite ps-3 pt-5">
+                    <div class="card-body d-flex flex-column mb-3">
+                    <h5 class="card-title fs-3 text-white pb-3 m-0">Construye con nosotros</h5>
+                    <a href="./pages/contacto.html" class="btn tarjetas text-white text-center text-decoration-none p-2 col-4">¡Unite al equipo!</a>
+                    </div>
+                </div>
+                </div>
+            </div>
 
-    <section class="tarjetados">
-            <section class="contenido conocenos">
-                <h4>NUESTRA HISTORIA</h4>
-                <a class="linkDescubreMas" href="./pages/nosotros.html"> ¡Conocenos! </a>
-            </section>
-            <section class="contenido unite">
-                <h4>CONSTRUYE CON NOSOTROS</h4>
-                <a class="linkDescubreMas unite" href="./pages/contacto.html"> ¡Unite al equipo! </a>
-        </section>
-        </section>
 
         <section class="video">
+
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Yvv_0GtupPE?si=36cKrEOu_9peXYJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
-        
- <section id="unite">
-        <h3>Unite al equipo!</h3>
-        <p>Lorem ipsum dolo nima incidunt eveniet, autem magni!</p>
-        <form action="" method="post" class="formulario">
-            <h4>Nombre</h4>
-            <input type="text" name="nombre" id="nombre" required>
-            <h4>E-mail</h4>
-            <input type="email" name="Email" placeholder="juan@gmail.com" id="email" required>
-            <br>
-            <input type="submit" value="Enviar" id="enviar">
-        </section> </form>    
-    </main>
 
 <footer class="footer container-fluid"> 
     <nav class="linksFooter">
-        <section class="contenidos">
+        <section class="contenidos p-3 m-2">
             <h3>Contenidos</h3>
                 <ul>
                     <li><a class= "contenidosItems" href="">Inicio</a></li>
