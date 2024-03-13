@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,73 +7,168 @@
     <link rel="shortcut icon" href="../assets/img/favicon.svg">
     <script src="https://kit.fontawesome.com/91df28c222.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos-nuevo.css">
 </head>
 <body>
-    <header> <nav>
-        <a href="" >
-            <img src="../assets/img/Logo-negocio.png" alt="Logo-negocio">
-        </a>
-       
-            <ul>
-                <li ><a  href="../index.html">Inicio</a></li>
-                <li ><a  href="./servicios.html">Servicios</a></li>
-                <li ><a  href="./nosotros.html">Nosotros</a></li>
-                <li ><a href="./locales.html">Locales</a></li>
-                <li ><a href="./contacto.html">Contacto</a></li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-color">
+            <div class="container-fluid">
+                <a class="navbar-brand p-0 pe-3 ms-4" href="#">
+                    <img class="logoNegocio" src="../assets/img/logo.png" alt="logo-negocio">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-0 w-100 justify-content-end">
+                    <li class="nav-item ps-3 pe-3">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item ps-3 pe-3">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item ps-3 pe-3">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item ps-3 pe-3">
+                        <a class="nav-link" href="./locales.html">Locales</a>
+                    </li>
+                    <li class="nav-item ps-3 pe-3">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
         </nav>
+        
     </header>
     <main>
-        <section>
-            <h1>Servicios</h1>
-            <section >
-                <img src="../assets/img/esmalte semipermanente.jpg" alt="esmalte semi">
-                <h3>Esmaltado semipermanente</h3>
-                <p>Lorem ipsum dolor scommodi eum ssimus delectus?</p>
-            </section>
-            <section >
-                <img src="../assets/img/kapping.jpg" alt="kapping">
-                <h3>Kapping en gel</h3>
-                <p>Lorem ipsum dolor scommodi eum ssimus delectus?</p>
-            </section>
-            <section >
-                <img  src="../assets/img/softgel.jpg" alt="softgel">
-                <h3>Softgel</h3>
-                <p>Lorem ipsum dolor scommodi eum ssimus delectus?</p>
-            </section>
+        <section class="section-servicios text-center m-5 d-flex flex-column mb-3 flex-wrap">
+            <h1 class="title-servicios">Nuestros servicios</h1>
+            <hr>
+            <p class="text-servicios me-5 ms-5"> <span class="fw-bold">¡Bienvenido a nuestro oasis de belleza y cuidado personal!</span> <br>En nuestro salón de uñas, nos dedicamos a 
+                brindarle una experiencia de manicura y pedicura excepcional que te dejará luciendo y sintiéndote renovada.
+                Desde servicios básicos hasta tratamientos de lujo, estamos aquí para satisfacer todas
+                tus necesidades de cuidado de uñas.</p>
         </section>
-    </main>
-    <footer>
-       <nav>
-        <h3>Contenidos</h3>
-        <ul>
-            <li ><a  href="../index.html">Inicio</a></li>
-                <li ><a  href="./servicios.html">Servicios</a></li>
-                <li ><a  href="./nosotros.html">Nosotros</a></li>
-                <li ><a href="./locales.html">Locales</a></li>
-                <li ><a href="./contacto.html">Contacto</a></li>
-        </ul>
-       </nav>
-       <section>
-        <h3>Sucursal Central</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d105211.23689956724!2d-58.57509085856777!3d-34.50665763856482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-34.5007161!2d-58.4916634!4m5!1s0x95bcb11d6efe4b27%3A0xfc666bb5b447cf56!2sAv.%20Maip%C3%BA%203151%2C%20B1636AAL%2C%20B1636%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!3m2!1d-34.5066853!2d-58.4926897!5e0!3m2!1ses-419!2sar!4v1707605934582!5m2!1ses-419!2sar" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-       </section>
-       <section>
-        <h3>Unite a nosotros!</h3>
-        <form action="" method="post">
-            <input type="email" name="Email" placeholder="Email" id="email" required>
-            <input type="submit" value="Enviar">
-        <section>
-            <h3>Contactate con nosotros</h3>
-            <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-        </section>
-        </form>
-       </section>
-    </footer>
 
+            <div class="row row-cols-1 row-cols-md-3 g-4 text-center m-4">
+            <div class="col-12 col-md-4" >
+                <div class="card card-servicios text-center">
+                <img src="../assets/img/Perfilado-de-cejas-3.webp" class="card-img-top" alt="cejas y pestañas">
+                <div class="card-body">
+                    <h5 class="card-title card-title-servicios fs-4 mt-3">Cejas & pestañas</h5>
+                </div>
+                </div>
+            </div>
+            <div class=" col-12 col-md-4">
+                <div class="card card-servicios">
+                <img src="../assets/img/OIP (1).jfif" class="card-img-top" alt="esmalte">
+                <div class="card-body">
+                    <h5 class="card-title card-title-servicios fs-4 mt-3">Esmalte permanente</h5>
+                    
+                </div></div>
+                </div>
+                <div class="col-12 col-md-4">
+                <div class="card card-servicios">
+                <img src="../assets/img/e4aae1c295779b8361c87f5ae2481b44.jpg" class="card-img-top" alt="kapping">
+                <div class="card-body">
+                    <h5 class="card-title card-title-servicios fs-4 mt-3">Kapping</h5>
+                </div>
+            </div></div>
+            <div class="col-12 col-md-4">
+            <div class="card card-servicios">
+                <img src="../assets/img/softgel1.jpg" class="card-img-top" alt="softgel">
+                    <div class="card-body">
+                    <h5 class="card-title card-title-servicios fs-4 mt-3">Softgel</h5>
+                    </div>
+                </div></div>
+                <div class="col-12 col-md-4">
+                <div class="card card-servicios">
+                    <img src="../assets/img/depilacion1.jfif" class="card-img-top" alt="depilacion">
+                    <div class="card-body">
+                    <h5 class="card-title card-title-servicios fs-4 mt-3">Depilación</h5>
+                    </div>
+                </div></div>
+                <div class="col-12 col-md-4">
+                    <div class="card card-servicios">
+                    <img src="../assets/img/pedicura-tradicional.webp" class="card-img-top" alt="pedicuria">
+                    <div class="card-body">
+                        <h5 class="card-title card-title-servicios fs-4 mt-3">Pedicuria</h5>
+                    </div>
+                    </div></div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-servicios">
+                        <img src="../assets/img/spa.jpg" class="card-img-top" alt="spa">
+                        <div class="card-body">
+                            <h5 class="card-title card-title-servicios fs-4 mt-3">Spa</h5>
+                        </div>
+                        </div></div>
+                        <div class="col-12 col-md-4">
+                            <div class="card card-servicios">
+                            <img src="../assets/img/acrilicas.jpg" class="card-img-top" alt="acrilicas">
+                            <div class="card-body">
+                                <h5 class="card-title card-title-servicios fs-4 mt-3">Acrílicas</h5>
+                            </div>
+                            </div></div>
+                            <div class="col-12 col-md-4 mb-5">
+                                <div class="card card-servicios">
+                                <img src="../assets/img/tradicional.jpg" class="card-img-top" alt="tradicional esmaltado">
+                                <div class="card-body">
+                                    <h5 class="card-title card-title-servicios fs-4 mt-3">Tradicional</h5>
+                                </div>
+                                </div></div>
+            </div>
+        </div>
+        
+
+
+
+
+
+    </main>
+    <footer class="container-fluid text-center p-0 m-0 ">
+        <nav class="row linksFooter d-flex justify-content-evenly p-0">
+            <div class="col">
+                <section class="contenidos m-5 ps-4">
+                    <h3 class="title-contenidos pb-2 text-start">Contenidos</h3>
+                        <ul>
+                            <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Inicio</a></li>
+                            <li class="listaFooter pb-2 "><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/servicios.html">Servicios</a></li>
+                            <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/nosotros.html">Nosotros</a></li>
+                            <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/locales.html">Locales</a></li>
+                            <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/contacto.html">Contacto</a></li>
+                        </ul>
+            </div>
+            <div class="col">
+                <section class="politicas m-5">
+                    <h3 class="title-politicas pb-2 text-start">Politicas</h3>
+                        <ul>
+                            <li class="listaFooter pb-2 "><a class= "Items text-decoration-none text-white fw-lighter" href="">Terminos y condiciones</a></li>
+                            <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Politicas de cookies</a></li>
+                            <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Politicas de privacidad</a></li>
+                            <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Preguntas frecuentes</a></li>
+                        </ul>
+                </section>
+            </div>
+            <div class="col">
+                <section class="contactate mt-5 mb-5">
+                    <h3 class="title-contacto pb-2 text-start">Contactate con nosotros</h3>
+                    <p class="Items text-p text-white fw-lighter">Ponte en contacto con nosotros a través de las redes sociales. <br><span class="fw-bold">¡Esperamos tu mensaje para brindarte el mejor servicio!</span></p>
+                    <a class="iconos" href="https://es-la.facebook.com/"  target="_blank"><i class="fa-brands p-3 fa-facebook "></i></a>
+                    <a class="iconos" href="https://www.instagram.com/?hl=es"  target="_blank"><i class="fa-brands p-3 fa-instagram "></i></a>
+                    <a class="iconos" href="https://web.whatsapp.com/"  target="_blank"><i class="fa-brands p-3 fa-whatsapp "></i></a>
+                </section>
+            </div>
+            <div class="col">
+                <section class="sucursalCentral m-5 p-0" >
+                    <h3 class="title-sucursal  pb-2 text-start">Sucursal Central</h3>
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d105211.23689956724!2d-58.57509085856777!3d-34.50665763856482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-34.5007161!2d-58.4916634!4m5!1s0x95bcb11d6efe4b27%3A0xfc666bb5b447cf56!2sAv.%20Maip%C3%BA%203151%2C%20B1636AAL%2C%20B1636%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!3m2!1d-34.5066853!2d-58.4926897!5e0!3m2!1ses-419!2sar!4v1707605934582!5m2!1ses-419!2sar" 
+                    width="260" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </div>
+        </nav>
+        </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
