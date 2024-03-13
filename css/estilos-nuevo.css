@@ -182,6 +182,12 @@ footer{
     height: 310px;
     text-align: center;
 }
+.card-title-tarjetas{
+    font-size: 2rem;
+}
+.btn-tarjetas{
+    font-size: 1.3rem;
+}
 
 .form{
     background-color: antiquewhite;
@@ -257,11 +263,7 @@ footer{
 
     @media screen and (max-width: 768px){
         .card-img-overlay{
-            height: 100vh;
             font-size: 1rem;
-        }
-        .carousel-inner{
-            height:100vh;
         }
         .card-title{
             font-size: 1.8rem;
@@ -284,18 +286,29 @@ footer{
             width:100%;
         }
 
-        .video{
-            padding:0px;
-            text-align: center;
-        }
         .contactate{
             padding: 10px 40px;
         }
             .fas{
             font-size: 1.5rem;
             }
-        .p-icon{
+            .p-icon{
+                font-size: 1rem;
+            }
+        .card-title-tarjetas{
+            font-size: 2.3rem;
+        }
+        .btn-tarjetas{
             font-size: 1rem;
+            padding: 10px 40px;
+            margin-top: 20px;
+            
+        }
+        .conocenos-unite{
+            padding:10px;
+        }
+        .carousel-inner{
+            height:100%;
         }
         }
 
