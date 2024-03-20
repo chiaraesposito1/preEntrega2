@@ -34,6 +34,7 @@ body{
 
 .container-fluid{
     padding:0;
+    margin: 0;
 }
 
 .card-img-overlay{
@@ -203,7 +204,7 @@ footer{
     }
 
 
-/*CONTACTOS*/
+
 .form-contacto{
     background-color: rgba(250, 235, 215, 0);
 }
@@ -212,7 +213,7 @@ footer{
         font-size: 1rem;
     }
 
-    /*NOSOTROS*/
+
     .card-text-nosotos{
         font-size: 1.1rem;
     }
@@ -232,7 +233,6 @@ footer{
         border: 1px solid rgb(207, 185, 155);
     }
 
-    /*SERVICIOS*/
     .text-servicios{
         font-size: 1.05rem;
         color: rgb(53, 53, 53);
