@@ -1,0 +1,19 @@
+.card-servicios{
+    text-align: center;
+    margin: $m-10 $m-40;
+    border-radius: 20px;
+    height:340px;
+    
+    &:hover {
+        color:$color-terciario;
+
+.card-title-servicios{
+    font-size: $t-4rem;
+    padding-bottom:$p-10;
+}    }
+}
+
+.text-servicios{
+    font-size: 1.05rem;
+    color: $texto-secundario;
+}

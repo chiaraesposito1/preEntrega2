@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-color">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand p-0 pe-3 ms-4" href="#">
                     <img class="logoNegocio" src="./assets/img/logo.png" alt="logo-negocio">
@@ -141,16 +141,16 @@
                 <div class="col-sm-6 mb-6 conocenos-unite ">
                 <div class="card-conocenos">
                     <div class="card-body pt-5 ps-5 d-flex flex-column mb-3 ">
-                    <h5 class="card-title card-title-tarjetas text-white">Nuestra historia</h5>
-                    <a href="./pages/nosotros.html" class="btn btn-tarjetas text-white text-center text-decoration-none p-3 col-6">¡Conocenos!</a>
+                    <h5 class=" card-title-tarjetas text-white">Nuestra historia</h5>
+                    <a href="./pages/nosotros.html" class="btn-tarjetas text-center text-decoration-none col-6">¡Conocenos!</a>
                     </div>
                 </div>
                 </div>
                 <div class="col-sm-6 mb-6 conocenos-unite">
                 <div class="card-unite">
                     <div class="card-body d-flex flex-column mb-3 pt-5 ps-5">
-                    <h5 class="card-title card-title-tarjetas  text-white">Construye con nosotros</h5>
-                    <a href="./pages/contacto.html" class="btn btn-tarjetas text-white text-center text-decoration-none col-6">¡Unite al equipo!</a>
+                    <h5 class="card-title-tarjetas  text-white">Construye con nosotros</h5>
+                    <a href="./pages/contacto.html" class=" btn-tarjetas text-white text-center text-decoration-none col-6">¡Unite al equipo!</a>
                     </div>
                 </div>
                 </div>
@@ -193,7 +193,7 @@
                             <section class="video p-3">
                                 <iframe width="560" height="300" src="https://www.youtube.com/embed/TvcIUiairk4?si=s0rlUcnKfftOWvUl" 
                                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                                gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                gyroscope; picture-in-picture; web-share" allowfullscreen class="video"></iframe>
                             </section>
                         </div>
                         </div>
@@ -204,7 +204,7 @@
                         <div class="caja-icon row m-2 d-flex justify-content-around d-flex align-items-center">
                         <div class="col  pt-2 mb-3">
                             <i class="fas fa-graduation-cap pb-3"></i>
-                            <h4 class="p-icon  pt-3">Formación continua</h4>
+                            <h4 class="p-icon pt-3">Formación continua</h4>
                         </div>
                         <div class="col pt-2  mb-3">
                             <i class="fas fa-hand-holding-heart pb-3"></i>
@@ -226,7 +226,7 @@
                     <div>
                         <h3 class="fs-3 text-center p-4 mb-4">¡Formá parte de nuestro equipo!</h3>
                     </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 form">
                             <label for="inputEmail4" class="form-label">Email</label>
                             <input type="email" class="form-control" id="inputEmail4">
                             </div>
@@ -254,48 +254,53 @@
                         </form>
         </main>
 
-        <footer class="container-fluid text-center p-0 m-0 ">
-            <nav class="row linksFooter d-flex justify-content-evenly p-0">
-                <div class="col">
-                    <section class="contenidos m-5 ps-4">
-                        <h3 class="title-contenidos pb-2 text-start">Contenidos</h3>
-                            <ul>
-                                <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Inicio</a></li>
-                                <li class="listaFooter pb-2 "><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/servicios.html">Servicios</a></li>
-                                <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/nosotros.html">Nosotros</a></li>
-                                <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/locales.html">Locales</a></li>
-                                <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/contacto.html">Contacto</a></li>
-                            </ul>
+        <footer>
+            <div class="container text-center">
+                <nav class="row d-flex justify-content-evenly">
+                    <div class="col ms-3 me-1">
+                        <section class="contenidos mt-5 mb-5">
+                            <h3 class="title-contenidos pb-2 text-start">Contenidos</h3>
+                                <ul>
+                                    <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Inicio</a></li>
+                                    <li class="listaFooter pb-2 "><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/servicios.html">Servicios</a></li>
+                                    <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/nosotros.html">Nosotros</a></li>
+                                    <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/locales.html">Locales</a></li>
+                                    <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="./pages/contacto.html">Contacto</a></li>
+                                </ul>
+                        </section>
+                    </div>
+                    <div class="col ms-3 me-3">
+                        <section class="politicas mt-5 mb-5">
+                            <h3 class="title-politicas pb-2 text-start">Políticas</h3>
+                                <ul>
+                                    <li class="listaFooter pb-2 "><a class= "Items text-decoration-none text-white fw-lighter" href="">Terminos y condiciones</a></li>
+                                    <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Politicas de cookies</a></li>
+                                    <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Politicas de privacidad</a></li>
+                                    <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Preguntas frecuentes</a></li>
+                                </ul>
+                        </section>
+                    </div>
+                    <div class="col ms-3 me-3">
+                        <section class="contactate mt-5 mb-5">
+                            <h3 class="title-contacto pb-2 text-start">Contactate con nosotros</h3>
+                            <p class="Items text-p text-white fw-lighter">Ponte en contacto con nosotros a través de las redes sociales. <br><span class="fw-bold">¡Esperamos tu mensaje para brindarte el mejor servicio!</span></p>
+                            <a class="iconos" href="https://es-la.facebook.com/"  target="_blank"><i class="fa-brands p-3 fa-facebook "></i></a>
+                            <a class="iconos" href="https://www.instagram.com/?hl=es"  target="_blank"><i class="fa-brands  p-3 fa-instagram "></i></a>
+                            <a class="iconos" href="https://web.whatsapp.com/"  target="_blank"><i class="fa-brands p-3 fa-whatsapp "></i></a>
+                        </section>
+                    </div>
+                    <div class="col ms-3 me-3">
+                        <section class="sucursalCentral mt-5 mb-5" >
+                            <h3 class="title-sucursal  pb-2 text-start">Sucursal Central</h3>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d105211.23689956724!2d-58.57509085856777!3d-34.50665763856482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-34.5007161!2d-58.4916634!4m5!1s0x95bcb11d6efe4b27%3A0xfc666bb5b447cf56!2sAv.%20Maip%C3%BA%203151%2C%20B1636AAL%2C%20B1636%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!3m2!1d-34.5066853!2d-58.4926897!5e0!3m2!1ses-419!2sar!4v1707605934582!5m2!1ses-419!2sar" 
+                            width="260" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </section>
+                    </div>
+                    </nav>
                 </div>
-                <div class="col">
-                    <section class="politicas m-5">
-                        <h3 class="title-politicas pb-2 text-start">Políticas</h3>
-                            <ul>
-                                <li class="listaFooter pb-2 "><a class= "Items text-decoration-none text-white fw-lighter" href="">Terminos y condiciones</a></li>
-                                <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Politicas de cookies</a></li>
-                                <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Politicas de privacidad</a></li>
-                                <li class="listaFooter pb-2"><a class= "Items text-decoration-none text-white fw-lighter" href="">Preguntas frecuentes</a></li>
-                            </ul>
-                    </section>
-                </div>
-                <div class="col">
-                    <section class="contactate mt-5 mb-5 ">
-                        <h3 class="title-contacto pb-2 text-start">Contactate con nosotros</h3>
-                        <p class="Items text-p text-white fw-lighter">Ponte en contacto con nosotros a través de las redes sociales. <br><span class="fw-bold">¡Esperamos tu mensaje para brindarte el mejor servicio!</span></p>
-                        <a class="iconos" href="https://es-la.facebook.com/"  target="_blank"><i class="fa-brands p-3 fa-facebook "></i></a>
-                        <a class="iconos" href="https://www.instagram.com/?hl=es"  target="_blank"><i class="fa-brands  p-3 fa-instagram "></i></a>
-                        <a class="iconos" href="https://web.whatsapp.com/"  target="_blank"><i class="fa-brands p-3 fa-whatsapp "></i></a>
-                    </section>
-                </div>
-                <div class="col">
-                    <section class="sucursalCentral m-5 p-0" >
-                        <h3 class="title-sucursal  pb-2 text-start">Sucursal Central</h3>
-                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d105211.23689956724!2d-58.57509085856777!3d-34.50665763856482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-34.5007161!2d-58.4916634!4m5!1s0x95bcb11d6efe4b27%3A0xfc666bb5b447cf56!2sAv.%20Maip%C3%BA%203151%2C%20B1636AAL%2C%20B1636%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!3m2!1d-34.5066853!2d-58.4926897!5e0!3m2!1ses-419!2sar!4v1707605934582!5m2!1ses-419!2sar" 
-                        width="260" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </section>
-                </div>
-            </nav>
-            </footer>
+            </div>
+    
+        </footer>
 
         <script src="../js/bootstrap.bundle.min.js"></script>
     </body>

@@ -1,0 +1,58 @@
+$background-color: antiquewhite;
+$color-primario:white;
+$color-secundario: rgb(22, 31, 22);
+$color-terciario: rgb(207, 185, 155);
+$texto-principal:black;
+$texto-secundario: rgb(56, 56, 56);
+
+@mixin btn{
+    border: $border-1px solid $color-primario;
+    color:$color-primario;
+    border-radius: 0;
+    padding: $p-10 40px; 
+    font-size: $t-1_5rem;
+}
+@mixin cards{
+    background-position:center;
+    background-size: cover;
+    height: $h-45vh;
+    border-radius: $border-radius-10;
+}
+@mixin sizes($width, $height) {	
+    height: $height;				
+    width: $width;
+ }	
+
+$t-0_95rem: 0.95rem;
+$t-1rem: 1rem;
+$t-1_1rem: 1.1rem;
+$t-1_3rem: 1.3rem;
+$t-1_5rem: 1.5rem;
+$t-2rem: 2rem;
+$t-2_3rem: 2.3rem;
+$t-3rem: 3rem;
+$t-3-5rem: 3.5rem;
+$t-4rem: 4rem;
+$t-5rem: 5rem;
+
+
+$h-45vh: 45vh;
+$h-55vh: 55vh;
+$h-60vh: 60vh;
+$h-100vh: 100vh;
+
+$w-100por: 100%;
+$h-100por: 100%;
+
+$p-10: 10px;
+$p-15: 15px;
+$p-20: 20px;
+$p-40: 40px;
+
+$m-10: 10px;
+$m-20: 20px;
+$m-40: 40px;
+
+$border-radius-10: 10px;
+$border-1px: 10px;
+

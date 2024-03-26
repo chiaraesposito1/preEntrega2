@@ -1,0 +1,84 @@
+@import "variables";
+@import "reset";
+@import "header";
+@import "mainIndex";
+@import "utilitarias";
+@import "nosotros";
+@import "servicios";
+@import "footer";
+
+
+    @media screen and (max-width: 768px){
+        .card-img-overlay{
+            font-size: $t-1rem;
+        
+        .card-title{
+            font-size: 1.8rem;
+            padding-bottom: 0px;
+            text-align: center;
+        }
+        .card-text{
+            font-size: $t-1rem;
+            margin:2px;
+            
+            .card-text-2{
+            font-size: 0.8rem;
+        }
+        } 
+        .btn{
+            font-size: 0.8rem;
+        }
+    }
+    
+        .contactate{
+            padding:$p-10 $p-40;
+        }
+        .caja-icon{
+
+        .fas{
+            font-size: $t-1rem;
+            .p-icon{
+                font-size: $t-1rem;
+            }
+        }}
+
+        .card-title-tarjetas{
+            font-size: $t-2_3rem;
+        
+            .btn-tarjetas{
+                font-size: $t-1rem;
+                padding: $p-10 $p-40;
+                margin-top: $m-20;
+                
+            }}
+        .conocenos-unite{
+            padding:$p-10;
+        }
+        .carousel-inner{
+            height:$h-100por;
+        }
+        .video{
+            @include sizes (320px, 200px);
+        }
+
+        .parrafo-nosotros{
+            font-size: 0.8rem;
+        }
+        
+        .fila-nosotros{
+            height: $h-100vh;
+            .card-text-nosotros{
+                width: $w-100por;
+                padding:0 $p-20;
+                text-align: justify;
+                font-size: $t-1rem;
+        }
+        }
+        .title-reseñas{
+            padding: $p-20 0;
+            margin-top: $m-20 ;
+        }
+        }
+
+
+

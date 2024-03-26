@@ -1,0 +1,19 @@
+.navbar{
+    padding-top: 0.05rem;
+    padding-bottom:0.05rem;
+    background-color: $color-secundario;
+    
+    .logoNegocio{
+        @include sizes (80px, 80px);
+        margin:$m-10;
+    }  
+    .nav-link {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:$color-primario;
+        font-size: $t-1_1rem;
+    
+    &:hover{
+        color: $color-primario;
+        border-bottom: $border-1px solid $color-primario;
+    }}
+}

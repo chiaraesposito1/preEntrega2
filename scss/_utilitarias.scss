@@ -1,0 +1,54 @@
+.carousel-inner{
+    height:$h-100vh;
+}
+
+.container-fluid{
+    padding:0;
+    margin: 0;
+}
+
+.card-title{
+    font-size: $t-5rem;
+    font-weight: 100;
+    padding-bottom: $p-10;
+
+    .font-weight{
+        font-weight: 700;
+    }
+}
+
+.parrafo-nosotros{
+    color: $texto-secundario;
+    font-size:$t-1rem;
+
+}
+
+.navbar-toggler{
+    color:$color-primario;
+    border:3px solid $color-primario;
+    background-color: rgba(255, 255, 255, 0.473);
+
+.navbar-toggler-icon{
+    color:$color-primario;
+}}
+
+.card-img-top{
+    object-fit: cover;
+    height:240px;
+    border-top-right-radius: $border-radius-10;
+    border-top-left-radius: $border-radius-10;
+}
+
+.form{
+    background-color: $background-color;
+
+    .btn-enviar{
+        color:$texto-principal;
+        background-color:$color-terciario;
+        border: 2px solid  rgb(145, 130, 110);
+        font-weight: 400;
+        border: none;
+        padding: $p-10 $p-40; 
+        font-size: $t-1rem;
+    }
+} 

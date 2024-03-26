@@ -1,0 +1,80 @@
+.card-img-overlay{
+    margin:3.5rem;
+    text-align: center;
+    height: $h-100por;
+
+    .card-text{
+        font-size: $t-1_5rem;
+        color:$color-primario;
+        margin: 0 10%;
+        font-weight: 100;
+    }
+    .btn{
+       @include btn;
+    }
+}
+
+.conocenos-unite{
+
+    .card-conocenos{
+        background-image: url(../assets/img/fondotarjeta1.jpg);
+       @include cards;
+        
+    }
+    .card-unite{
+        background-image: url(../assets/img/fondotarjeta2.jpg);
+        @include cards;
+    }
+    .btn-tarjetas{
+        @include btn;
+        padding: $p-10; 
+        font-size: $t-1_1rem;
+    }
+}
+
+.card-group{
+    margin: 0 30px;
+
+    .card-hija{
+        background-color: $background-color;
+        margin:$m-10;
+        @include sizes (220px, 370px);
+        gap:10px;
+        border-radius: $border-radius-10;
+    }
+        .card-title-serv{
+            font-size: $t-1_5rem;
+            padding:$p-15;
+            &:hover{
+                border-bottom: $border-1px solid $texto-principal;
+            }
+    }
+}
+
+.contenedor-quoutes{
+    background-color:$background-color;
+
+    .p-2{
+        font-size: $t-1_1rem;
+        width:$w-100por;
+    }
+    .img-manicura{
+        @include sizes (410px, 310px);
+        text-align: center;
+    }
+}
+
+.caja-icon{
+    color: $color-secundario;
+
+    .fas{
+    font-size: $t-3rem;
+    }
+}
+
+.card-title-tarjetas{
+    font-size: $t-2rem;
+
+    .btn-tarjetas{
+        font-size: $t-1rem;
+    }}

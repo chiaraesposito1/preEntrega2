@@ -1,316 +1,307 @@
-*{
-    margin: 0;
-    padding: 0;   
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: rgb(241, 218, 187);
-    color: rgb(0, 0, 0);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.navbar{
-    padding-top: 0.05rem;
-    padding-bottom:0.05rem;
+body {
+  background-color: rgb(241, 218, 187);
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.navbar-color{
-    background-color: rgb(22, 31, 22);
+.navbar {
+  padding-top: 0.05rem;
+  padding-bottom: 0.05rem;
+  background-color: rgb(22, 31, 22);
 }
-.nav-link {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:white;
-    font-size: 1.1rem;
+.navbar .logoNegocio {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
 }
-.nav-link:hover, .nav-link:focus {
-    color: rgb(224, 224, 224);
-    border-bottom: 1px solid white;
+.navbar .nav-link {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 1.1rem;
 }
-
-.logoNegocio{
-    width:80px;
-    height: 80px;
-    margin:10px;
-}  
-
-.container-fluid{
-    padding:0;
-    margin: 0;
+.navbar .nav-link:hover {
+  color: white;
+  border-bottom: 1px solid white;
 }
 
-.card-img-overlay{
-    margin:3.5rem;
+.card-img-overlay {
+  margin: 3.5rem;
+  text-align: center;
+  height: 100%;
+}
+.card-img-overlay .card-text {
+  font-size: 1.5rem;
+  color: white;
+  margin: 0 10%;
+  font-weight: 100;
+}
+.card-img-overlay .btn {
+  border: 1px solid white;
+  color: white;
+  border-radius: 0;
+  padding: 10px 40px;
+  font-size: 1.5rem;
+}
+
+.conocenos-unite .card-conocenos {
+  background-image: url(../assets/img/fondotarjeta1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 45vh;
+  border-radius: 10px;
+}
+.conocenos-unite .card-unite {
+  background-image: url(../assets/img/fondotarjeta2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 45vh;
+  border-radius: 10px;
+}
+.conocenos-unite .btn-tarjetas {
+  border: 1px solid white;
+  color: white;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.card-group {
+  margin: 0 30px;
+}
+.card-group .card-hija {
+  background-color: antiquewhite;
+  margin: 10px;
+  width: 220px;
+  height: 370px;
+  gap: 10px;
+  border-radius: 10px;
+}
+.card-group .card-title-serv {
+  font-size: 1.5rem;
+  padding: 15px;
+}
+.card-group .card-title-serv:hover {
+  border-bottom: 1px solid black;
+}
+
+.contenedor-quoutes {
+  background-color: antiquewhite;
+}
+.contenedor-quoutes .p-2 {
+  font-size: 1.1rem;
+  width: 100%;
+}
+.contenedor-quoutes .img-manicura {
+  width: 410px;
+  height: 310px;
+  text-align: center;
+}
+
+.caja-icon {
+  color: rgb(22, 31, 22);
+}
+.caja-icon .fas {
+  font-size: 3rem;
+}
+
+.card-title-tarjetas {
+  font-size: 2rem;
+}
+.card-title-tarjetas .btn-tarjetas {
+  font-size: 1rem;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.card-title {
+  font-size: 5rem;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+.card-title .font-weight {
+  font-weight: 700;
+}
+
+footer {
+  background-color: rgb(22, 31, 22);
+  color: white;
+}
+footer h3 {
+  font-size: 1.3rem;
+}
+footer ul {
+  padding: 0px;
+}
+footer li {
+  list-style: none;
+  text-align: left;
+}
+footer .Items {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 0.95rem;
+}
+footer .fa-brands {
+  color: white;
+  font-size: 2rem;
+}
+footer .text-p {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.parrafo-nosotros {
+  color: rgb(56, 56, 56);
+  font-size: 1rem;
+}
+
+.navbar-toggler {
+  color: white;
+  border: 3px solid white;
+  background-color: rgba(255, 255, 255, 0.473);
+}
+.navbar-toggler .navbar-toggler-icon {
+  color: white;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 240px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.form {
+  background-color: antiquewhite;
+}
+.form .btn-enviar {
+  color: black;
+  background-color: rgb(207, 185, 155);
+  border: 2px solid rgb(145, 130, 110);
+  font-weight: 400;
+  border: none;
+  padding: 10px 40px;
+  font-size: 1rem;
+}
+
+.card-text-nosotros {
+  font-size: 1.1rem;
+  text-align: start;
+}
+.card-text-nosotros .btn-unite {
+  font-size: 1.05rem;
+  border: 1px solid black;
+  color: black;
+  margin-top: 10px;
+}
+
+.col-nosotros {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  border: 1px solid rgb(207, 185, 155);
+}
+
+.fila-nosotros {
+  height: 60vh;
+}
+
+.card-servicios {
+  text-align: center;
+  margin: 10px 40px;
+  border-radius: 20px;
+  height: 340px;
+}
+.card-servicios:hover {
+  color: rgb(207, 185, 155);
+}
+.card-servicios:hover .card-title-servicios {
+  font-size: 4rem;
+  padding-bottom: 10px;
+}
+
+.text-servicios {
+  font-size: 1.05rem;
+  color: rgb(56, 56, 56);
+}
+
+@media screen and (max-width: 768px) {
+  .card-img-overlay {
+    font-size: 1rem;
+  }
+  .card-img-overlay .card-title {
+    font-size: 1.8rem;
+    padding-bottom: 0px;
     text-align: center;
+  }
+  .card-img-overlay .card-text {
+    font-size: 1rem;
+    margin: 2px;
+  }
+  .card-img-overlay .card-text .card-text-2 {
+    font-size: 0.85rem;
+  }
+  .card-img-overlay .btn {
+    font-size: 0.8rem;
+  }
+  .card-hija {
+    width: 300px; /*corregir esto*/
+  }
+  .contactate {
+    padding: 10px 40px;
+  }
+  .caja-icon .fas {
+    font-size: 1rem;
+  }
+  .caja-icon .fas .p-icon {
+    font-size: 1rem;
+  }
+  .card-title-tarjetas {
+    font-size: 2.3rem;
+  }
+  .card-title-tarjetas .btn-tarjetas {
+    font-size: 1rem;
+    padding: 10px 40px;
+    margin-top: 20px;
+  }
+  .conocenos-unite {
+    padding: 10px;
+  }
+  .carousel-inner {
     height: 100%;
+  }
+  .video {
+    width: 320px;
+    height: 200px;
+  }
+  .parrafo-nosotros {
+    font-size: 0.8rem;
+  }
+  .fila-nosotros {
+    height: 100vh;
+  }
+  .fila-nosotros .card-text-nosotros {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 1rem;
+  }
+  .title-reseñas {
+    padding: 20px 0;
+    margin-top: 20px;
+  }
 }
 
-.card-title{
-    font-size: 5rem;
-    font-weight: 100;
-    padding-bottom: 10px;
-
-    .font-weight{
-        font-weight: 700;
-    }
-}
-
-.card-title-servicios{
-    font-size: 4rem;
-    padding-bottom: 10px;
-}
-
-.card-text{
-    font-size: 1.5rem;
-    color:white;
-    margin: 0 10%;
-    font-weight: 100;
-}
-
-.carousel-inner{
-    height:100vh;
-}
-
-.card-img-contacto{
-    height: 55vh;
-    background-size: cover;
-    background-position: center;
-}
-
-.card-tarjetas{
-    width:50%;
-}
-
-.btn{
-    border: 1px solid white;
-    color:white;
-    border-radius: 0;
-    padding: 10px 40px; 
-    font-size: 1.5rem;
-}
-
-.card-img-top{
-    object-fit: cover;
-    height:240px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-
-.card-group{
-    margin: 0 30px;
-}
-
-.card-hija{
-    background-color: antiquewhite;
-    margin:10px;
-    width:220px;
-    height:370px;
-    gap:10px;
-    border-radius: 10px;
-
-    .card-title-serv{
-        font-size: 1.5rem;
-        padding:15px;
-    }
-    .card-title-serv:hover, .card-title-serv:focus{
-        border-bottom: 1px solid black;
-    
-    }
-}
-
-.card-conocenos{
-    background-image: url(../assets/img/fondotarjeta1.jpg);
-    background-position:center;
-    background-size: cover;
-    height: 45vh;
-    border-radius: 10px;
-    
-}
-.card-unite{
-    background-image: url(../assets/img/fondotarjeta2.jpg);
-    background-position:center;
-    background-size: cover;
-    height: 45vh;
-    border-radius: 10px;
-}
-
-.caja-icon{
-    color: rgb(22, 31, 22);
-
-    .fas{
-    font-size: 3rem;
-    }
-}
-
-footer{
-    background-color:rgb(22, 31, 22);
-    color:white; 
-
-    h3{
-        font-size: 1.3rem;
-    }
-    ul{
-        padding:0px;
-        
-    }
-    li{
-        list-style:none;
-        text-align: left;
-    }
-    .Items{
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 0.95rem;
-    }
-
-    .fa-brands{
-        color: white;
-        font-size: 2rem;
-    }
-
-    .text-p{
-        font-size:0.9rem;
-        text-align: justify;
-    }
-}
-.contenedor-quoutes{
-    background-color:antiquewhite;
-}
-.p-2{
-    font-size: 1.1rem;
-    width:100%;
-}
-.img-manicura{
-    width:410px;
-    height: 310px;
-    text-align: center;
-}
-.card-title-tarjetas{
-    font-size: 2rem;
-}
-.btn-tarjetas{
-    font-size: 1.3rem;
-}
-
-.form{
-    background-color: antiquewhite;
-   } 
-    .btn-enviar{
-        color:rgb(0, 0, 0);
-        background-color:rgb(207, 183, 151);
-        border: 2px solid  rgb(145, 130, 110);
-        font-weight: 400;
-        border: none;
-        padding: 10px 40px; 
-        font-size: 1rem;
-    }
-
-
-
-.form-contacto{
-    background-color: rgba(250, 235, 215, 0);
-}
-    .parrafo-contacto{
-        color: rgb(56, 56, 56);
-        font-size: 1rem;
-    }
-
-
-    .card-text-nosotos{
-        font-size: 1.1rem;
-    }
-    .btn-nosotros{
-        font-size: 1.05rem;
-        border: 1px solid black;
-        color: black;
-        margin-top: 10px;
-    }
-    .parrafo-nosotros{
-        color: rgb(56, 56, 56);
-        font-size: 0.8rem;
-    }
-    .col-nosotros{
-        background-color: antiquewhite;
-        border-radius: 10px;
-        border: 1px solid rgb(207, 185, 155);
-    }
-
-    .text-servicios{
-        font-size: 1.05rem;
-        color: rgb(53, 53, 53);
-    }
-    .card-servicios{
-    text-align: center;
-    margin: 10px 40px;
-    border-radius: 20px;
-    height:340px;
-    
-    }
-    
-    .card-title-servicios:hover, .card-title-servicios:focus {
-        color:rgb(207, 185, 155);
-        text-decoration: none;
-        border-bottom: 1px solid rgb(207, 185, 155);
-    }
-
-    .navbar-toggler{
-        color:white;
-        border:3px solid white;
-        background-color: rgba(255, 255, 255, 0.473);
-    }
-    .navbar-toggler-icon{
-        color:white;
-    }
-
-
-    @media screen and (max-width: 768px){
-        .card-img-overlay{
-            font-size: 1rem;
-        }
-        .card-title{
-            font-size: 1.8rem;
-            padding-bottom: 0px;
-            text-align: center;
-        }
-        .card-text{
-            font-size: 1rem;
-            margin:2px;
-        }
-        .card-text-2{
-            font-size: 0.85rem;
-        }
-
-        .btn{
-            font-size: 0.8rem;
-        }
-
-        .card-hija{
-            width:100%;
-        }
-
-        .contactate{
-            padding: 10px 40px;
-        }
-            .fas{
-            font-size: 1.5rem;
-            }
-            .p-icon{
-                font-size: 1rem;
-            }
-        .card-title-tarjetas{
-            font-size: 2.3rem;
-        }
-        .btn-tarjetas{
-            font-size: 1rem;
-            padding: 10px 40px;
-            margin-top: 20px;
-            
-        }
-        .conocenos-unite{
-            padding:10px;
-        }
-        .carousel-inner{
-            height:100%;
-        }
-        }
-
-
-
+/*# sourceMappingURL=estilos-nuevo.css.map */
