@@ -78,3 +78,29 @@
     .btn-tarjetas{
         font-size: $t-1rem;
     }}
+
+    @media screen and (max-width: 768px){
+    .caja-icon{
+        .fas{
+            font-size: $t-1rem;
+            .p-icon{
+                font-size: $t-1rem;
+            }
+    }} 
+    .card-title-tarjetas{
+        font-size: $t-2_3rem;
+    
+        .btn-tarjetas{
+            font-size: $t-1rem;
+            padding: $p-10 $p-40;
+            margin-top: $m-20;
+            
+        }}
+        .conocenos-unite{
+            padding:$p-10;
+        }
+        .video{
+            @include sizes (320px, 200px);
+        }
+
+}

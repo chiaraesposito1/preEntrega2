@@ -52,3 +52,36 @@
         font-size: $t-1rem;
     }
 } 
+
+@media screen and (max-width: 768px){
+    .card-img-overlay{
+        font-size: $t-1rem;
+    
+    .card-title{
+        font-size: 1.8rem;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .card-text{
+        font-size: $t-1rem;
+        margin:2px;
+        
+        .card-text-2{
+        font-size: 0.8rem;
+    }
+    } 
+    .btn{
+        font-size: 0.8rem;
+    }
+}
+    .contactate{
+        padding:$p-10 $p-40;
+    }
+    .carousel-inner{
+        height:$h-100por;
+    }
+    .parrafo-nosotros{
+        font-size: 0.8rem;
+    }
+
+}
