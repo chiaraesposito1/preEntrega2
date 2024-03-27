@@ -41,15 +41,16 @@
         @include sizes (220px, 370px);
         gap:10px;
         border-radius: $border-radius-10;
-    }
+        }
+    
         .card-title-serv{
             font-size: $t-1_5rem;
             padding:$p-15;
             &:hover{
                 border-bottom: $border-1px solid $texto-principal;
             }
-    }
-}
+    }}
+ 
 
 .contenedor-quoutes{
     background-color:$background-color;
